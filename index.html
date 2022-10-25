@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Importance of Real Estate Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/baefa0e7e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <div class="header-logo">
+          <img src="images/logo.png" alt="logo" width="415" height="131" />
+        </div>
+        <div class="header-nav">
+          <ul id="nav">
+            <li>
+              <a href="#">Properties</a>
+              <ul class="sub-menu">
+                <li><a href="#">Why Choose Us</a></li>
+                <li><a href="#">What we do different</a></li>
+                <li><a href="#">Fake Agent</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Home Valuation</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Business Consulting</a></li>
+            <li><a href="#">Training & Speaking</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner site-bg-rgba">
+      <div class="banner-container site-bg-rgba">
+        <canvas
+          width="1600"
+          height="800"
+          style="background: url(images/banner.jpg) center/cover no-repeat"
+        ></canvas>
+      </div>
+      <div class="slideshow-group">
+        <em>My Real Estate Choice</em>
+        <div class="s-btn-group">
+          <a href="#" aria-label="Learn MORE" class="site-btn">Learn MORE</a>
+          <a href="#" aria-label="Download Our App" class="site-btn"
+            >Download Our App</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="quick-search">
+      <div class="region-quick-search-container">
+        <div class="site-title site-indent">
+          <h3 class="secondary-text">Search for</h3>
+          <h2 class="primary-text">Properties</h2>
+        </div>
+        <div class="quick-search-form">
+          <div class="qs-item qs-lg">
+            <select aria-label="qs-fields">
+              <option value="SFR,CND">Property Type</option>
+              <option value="SFR">House Only</option>
+              <option value="CND">Condo Only</option>
+              <option value="RI">Multi-Family</option>
+              <option value="COM">Commercial</option>
+              <option value="LL">Lots / Land</option>
+              <option value="RI">Multi-Unit Residential</option>
+              <option value="MH">Mobile Home</option>
+              <option value="RNT">Rental</option>
+              <option value="FRM">Farms</option>
+            </select>
+          </div>
+          <div class="qs-item qs-lg">
+            <select aria-label="qs-fields">
+              <option value="Zip">Select City. Zip</option>
+              <option value="Zip">Select City. Zip</option>
+              <option value="Zip">Select City. Zip</option>
+              <option value="Zip">Select City. Zip</option>
+              <option value="Zip">Select City. Zip</option>
+              <option value="Zip">Select City. Zip</option>
+            </select>
+          </div>
+          <div class="qs-item qs-normy">
+            <select aria-label="qs-fields">
+              <option value="">Beds</option>
+              <option value="1">1+</option>
+              <option value="2">2+</option>
+              <option value="3">3+</option>
+              <option value="4">4+</option>
+              <option value="5">5+</option>
+            </select>
+          </div>
+          <div class="qs-item qs-normy">
+            <select aria-label="qs-fields">
+              <option value="">Baths</option>
+              <option value="1">1+</option>
+              <option value="2">2+</option>
+              <option value="3">3+</option>
+              <option value="4">4+</option>
+              <option value="5">5+</option>
+            </select>
+          </div>
+          <div class="qs-item qs-normy">
+            <select aria-label="qs-fields">
+              <option>Min. ₱</option>
+              <option>₱1,000,000</option>
+              <option>₱2,000,000</option>
+              <option>₱3,000,000</option>
+              <option>₱4,000,000</option>
+            </select>
+          </div>
+          <div class="qs-item qs-normy last">
+            <select aria-label="qs-fields">
+              <option>Max. ₱</option>
+              <option>₱1,000,000</option>
+              <option>₱2,000,000</option>
+              <option>₱3,000,000</option>
+              <option>₱4,000,000</option>
+            </select>
+          </div>
+          <div class="qs-item qs-button first">
+            <div class="site-btn-primary qs-btn">
+              <input type="submit" value="Search" aria-label="qs-submit" />
+            </div>
+          </div>
+          <div class="qs-item qs-button">
+            <a href="#" class="site-btn" aria-label="qs-btn"> Advanced </a>
+          </div>
+        </div>
+        <p>Real Estate Powered by Group 1</p>
+      </div>
+      <div class="site-bg site-bg-rgba">
+        <canvas
+          width="1600"
+          height="379"
+          style="background: url(images/qs-bg.jpg) center/cover no-repeat"
+        ></canvas>
+      </div>
+    </section>
+    <section class="properties">
+      <div class="region-properties-container">
+        <div class="site-title title-center">
+          <h3>Featured</h3>
+          <h2>Listings</h2>
+        </div>
+        <div class="properties-slick">
+          <a href="#" aria-label="properties" class="properties-item">
+            <div class="properties-img canvas-wrapper">
+              <canvas width="530" height="359"></canvas>
+              <img
+                alt="properties"
+                class="img-properties canvas-img img-responsive"
+                src="images/properties-1.jpg"
+              />
+            </div>
+            <div class="properties-content">
+              <h3>Amaia Scapes Batangas</h3>
+              <p>Amaia</p>
+            </div>
+            <img
+              alt="logo"
+              class="properties-logo-hover img-responsive"
+              src="images/logo.png"
+              width="415"
+              height="131"
+            />
+            <p class="sold">Sold</p>
+          </a>
+          <a href="#" aria-label="properties" class="properties-item">
+            <div class="properties-img canvas-wrapper">
+              <canvas width="530" height="359"></canvas>
+              <img
+                alt="properties"
+                class="img-properties canvas-img img-responsive"
+                src="images/properties-2.jpg"
+              />
+            </div>
+            <div class="properties-content">
+              <h3>Amaia Scapes Batangas</h3>
+              <p>Amaia</p>
+            </div>
+            <img
+              alt="logo"
+              class="properties-logo-hover img-responsive"
+              src="images/logo.png"
+              width="415"
+              height="131"
+            />
+            <p class="sold">Sold</p>
+          </a>
+          <a href="#" aria-label="properties" class="properties-item">
+            <div class="properties-img canvas-wrapper">
+              <canvas width="530" height="359"></canvas>
+              <img
+                alt="properties"
+                class="img-properties canvas-img img-responsive"
+                src="images/properties-3.jpg"
+              />
+            </div>
+            <div class="properties-content">
+              <h3>Amaia Scapes Batangas</h3>
+              <p>Amaia</p>
+            </div>
+            <img
+              alt="logo"
+              class="properties-logo-hover img-responsive"
+              src="images/logo.png"
+              width="415"
+              height="131"
+            />
+            <p class="sold">Sold</p>
+          </a>
+          <a href="#" aria-label="properties" class="properties-item">
+            <div class="properties-img canvas-wrapper">
+              <canvas width="530" height="359"></canvas>
+              <img
+                alt="properties"
+                class="img-properties canvas-img img-responsive"
+                src="images/properties-4.jpg"
+              />
+            </div>
+            <div class="properties-content">
+              <h3>Amaia Scapes Batangas</h3>
+              <p>Amaia</p>
+            </div>
+            <img
+              alt="logo"
+              class="properties-logo-hover img-responsive"
+              src="images/logo.png"
+              width="415"
+              height="131"
+            />
+            <p class="sold">Sold</p>
+          </a>
+          <a href="#" aria-label="properties" class="properties-item">
+            <div class="properties-img canvas-wrapper">
+              <canvas width="530" height="359"></canvas>
+              <img
+                alt="properties"
+                class="img-properties canvas-img img-responsive"
+                src="images/properties-5.jpg"
+              />
+            </div>
+            <div class="properties-content">
+              <h3>Amaia Scapes Batangas</h3>
+              <p>Amaia</p>
+            </div>
+            <img
+              alt="logo"
+              class="properties-logo-hover img-responsive"
+              src="images/logo.png"
+              width="415"
+              height="131"
+            />
+            <p class="sold">Sold</p>
+          </a>
+          <a href="#" aria-label="properties" class="properties-item">
+            <div class="properties-img canvas-wrapper">
+              <canvas width="530" height="359"></canvas>
+              <img
+                alt="properties"
+                class="img-properties canvas-img img-responsive"
+                src="images/properties-6.jpg"
+              />
+            </div>
+            <div class="properties-content">
+              <h3>Amaia Scapes Batangas</h3>
+              <p>Amaia</p>
+            </div>
+            <img
+              alt="logo"
+              class="properties-logo-hover img-responsive"
+              src="images/logo.png"
+              width="415"
+              height="131"
+            />
+            <p class="sold">Sold</p>
+          </a>
+        </div>
+        <a href="#" aria-label="VIEW MORE PROPERTIES" class="site-btn"
+          >VIEW MORE PROPERTIES</a
+        >
+      </div>
+    </section>
+    <section class="work">
+      <div class="site-container">
+        <div class="region-work-container">
+          <div class="site-title">
+            <h3>Why</h3>
+            <h2>Work With Us</h2>
+          </div>
+          <div class="work-content">
+            <a href="#" aria-label="why work with us" class="work-item">
+              <em>₱<span class="count">2.3</span>B</em>
+              <span class="work-text"
+                >in Sales of <br />
+                Real Estate</span
+              >
+            </a>
+            <a href="#" aria-label="why work with us" class="work-item">
+              <em><span class="count">850</span>+</em>
+              <span class="work-text">home sold </span>
+            </a>
+            <a href="#" aria-label="why work with us" class="work-item">
+              <em><span class="count">777</span>+</em>
+              <span class="work-text"
+                >Agents Across <br />
+                Ayala Land</span
+              >
+            </a>
+            <a href="#" aria-label="why work with us" class="work-item">
+              <em><span class="count">21</span>+</em>
+              <span class="work-text"
+                >Years of <br />
+                experience
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="buyers-sellers">
+      <!-- Buyers | Sellers -->
+      <div class="bs-inner">
+        <div class="buyers">
+          <a href="#" class="links-img-holder" aria-label="buyers">
+            <canvas class="site-canvas" width="799" height="492"></canvas>
+            <img
+              alt="Buyers"
+              class="img-responsive canvas-img"
+              src="images/buyers.jpg"
+            />
+          </a>
+          <div class="buyers-cta">
+            <h2>Buyers</h2>
+            <a href="#" aria-label="Learn More">Learn More +</a>
+          </div>
+        </div>
+        <div class="sellers">
+          <a href="#" class="links-img-holder" aria-label="sellers">
+            <canvas class="site-canvas" width="799" height="492"></canvas>
+            <img
+              alt="Sellers"
+              class="img-responsive canvas-img"
+              src="images/sellers.jpg"
+            />
+          </a>
+          <div class="sellers-cta">
+            <h2>Sellers</h2>
+            <a href="#" aria-label="Learn More">Learn More +</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="listings">
+      <div class="region-listings-container">
+        <div class="site-title title-center">
+          <h3 class="secondary-text">Featured</h3>
+          <h2 class="primary-text">Properties</h2>
+        </div>
+        <div class="listings-slick">
+          <a href="#" aria-label="listings" class="listings-item">
+            <div class="listings-img canvas-wrapper">
+              <canvas width="488" height="414"></canvas>
+              <img
+                alt="listings"
+                class="img-listings canvas-img img-responsive lazyload"
+                src="images/listings-1.jpg"
+              />
+            </div>
+            <div class="listings-content">
+              <h3>₱7,750,000</h3>
+              <p>
+                86 Jacinto St <br />
+                Cardona, Puting Bato, Rizal
+              </p>
+            </div>
+          </a>
+          <a href="#" aria-label="listings" class="listings-item">
+            <div class="listings-img canvas-wrapper">
+              <canvas width="488" height="414"></canvas>
+              <img
+                alt="listings"
+                class="img-listings canvas-img img-responsive lazyload"
+                src="images/listings-2.jpg"
+              />
+            </div>
+            <div class="listings-content">
+              <h3>₱7,750,000</h3>
+              <p>
+                86 Jacinto St <br />
+                Cardona, Puting Bato, Rizal
+              </p>
+            </div>
+          </a>
+          <a href="#" aria-label="listings" class="listings-item">
+            <div class="listings-img canvas-wrapper">
+              <canvas width="488" height="414"></canvas>
+              <img
+                alt="listings"
+                class="img-listings canvas-img img-responsive lazyload"
+                src="images/listings-3.jpg"
+              />
+            </div>
+            <div class="listings-content">
+              <h3>₱7,750,000</h3>
+              <p>
+                86 Jacinto St <br />
+                Cardona, Puting Bato, Rizal
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="listings-slick-arrow">
+          <a href="#" class="site-btn primary" aria-label="VIEW More"
+            >VIEW More</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials-wrapper">
+        <div class="site-title">
+          <h3>What Our</h3>
+          <h2>Clients Says</h2>
+        </div>
+        <p class="testi-text">"Helped 700+ families just like yours"</p>
+        <div class="testi-cards">
+          <div class="testi-card">
+            <p>
+              We never really believed in so-called real estate experts until we
+              were introduced to Group 1. Like magicians, they made all of our
+              Washington real estate dreams come true. Aside from being...
+            </p>
+            <div class="testi-group">
+              <span class="testi-name">Chuck Norris</span>
+              <span class="testi-arrow fa-solid fa-arrow-right"></span>
+            </div>
+          </div>
+          <div class="testi-card">
+            <p>
+              We never really believed in so-called real estate experts until we
+              were introduced to Group 1. Like magicians, they made all of our
+              Washington real estate dreams come true. Aside from being...
+            </p>
+            <div class="testi-group">
+              <span class="testi-name">Chuck Norris</span>
+              <span class="testi-arrow fa-solid fa-arrow-right"></span>
+            </div>
+          </div>
+          <div class="testi-card">
+            <p>
+              We never really believed in so-called real estate experts until we
+              were introduced to Group 1. Like magicians, they made all of our
+              Washington real estate dreams come true. Aside from being...
+            </p>
+            <div class="testi-group">
+              <span class="testi-name">Chuck Norris</span>
+              <span class="testi-arrow fa-solid fa-arrow-right"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-bg site-bg-rgba">
+        <canvas
+          width="1600"
+          height="573"
+          style="background: url(images/testi-bg.jpg) center/cover no-repeat"
+        ></canvas>
+      </div>
+    </section>
+    <div class="contact-form-wrapper">
+      <div class="contact-form-container">
+        <div class="site-title">
+          <h3>Connect With</h3>
+          <h2>The Group 1</h2>
+        </div>
+        <div class="contact-form">
+          <div class="form-group">
+            <div class="form-md">
+              <label for="first-name"></label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form-md">
+              <label for="last-name"></label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-md">
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="form-md">
+              <label for="phone"></label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+          <div class="form-submit">
+            <div class="form-lg">
+              <label for="message"></label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="form-btn-wrapper">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-bg">
+        <canvas
+          width="1600"
+          height="800"
+          style="background: url(images/conntact-bg.jpg) center/cover no-repeat"
+        ></canvas>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="site-container">
+        <div class="footer-logo">
+          <img
+            alt="agent"
+            class="img-responsive"
+            src="images/residence-logo.png"
+            width="313"
+            height="200"
+          />
+          <img
+            alt="agent"
+            class="img-responsive"
+            src="images/logo.png"
+            width="415"
+            height="131"
+          />
+        </div>
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <span class="fa-solid fa-phone"></span>
+            <a href="tel:+639851234523" aria-label="phone call"
+              >0985-123-4523</a
+            >
+          </div>
+          <div class="footer-contact-item">
+            <span class="fa-solid fa-envelope"></span>
+            <a href="mailto:group.one@my.jru.edu" aria-label="send email"
+              >group.one@my.jru.edu</a
+            >
+          </div>
+          <div class="footer-contact-item">
+            <span class="fa-solid fa-location-dot"></span>
+            <span class="location"
+              >80 Shaw Blvd, Mandaluyong, 1552 Metro Manila</span
+            >
+          </div>
+        </div>
+        <div class="footer-smi">
+          <a href="#" target="_blank" aria-label="facebook">
+            <span class="fa-brands fa-facebook"></span>
+          </a>
+          <a href="#" target="_blank" aria-label="instagram">
+            <span class="fa-brands fa-instagram"></span>
+          </a>
+          <a href="#" target="_blank" aria-label="twitter">
+            <span class="fa-brands fa-twitter"></span>
+          </a>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">Home Valuation</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Business Consulting</a></li>
+            <li><a href="#">Training & Speaking</a></li>
+          </ul>
+        </div>
+        <p class="footer-outro">
+          Group 1 is committed to providing an accessible website. If you have
+          difficulty accessing content, have difficulty viewing a file on the
+          website, or notice any accessibility problems, please contact us at
+          <a href="tel:+639851234523" aria-label="phone call">0985-123-4523</a>
+          to specify the nature of the accessibility issue and any assistive
+          technology you use. We strive to provide the content you need in the
+          format you require.
+        </p>
+        <div class="footer-bot">
+          <p class="copyright">
+            Copyright &copy; 2022
+            <span class="sitename"
+              >Group 1 - Importance of Real Estate Website.
+            </span>
+            All rights reserved.
+          </p>
+          <!-- MLS -->
+          <div class="mls">
+            <span class="fa-solid fa-house-chimney"></span>
+            <span class="fa-solid fa-handshake"></span>
+          </div>
+        </div>
+      </div>
+      <div class="site-bg site-bg-rgba">
+        <canvas
+          width="1920"
+          height="1280"
+          style="background-image: url(images/footer-bg.jpg)"
+        ></canvas>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
